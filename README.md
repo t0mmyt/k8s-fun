@@ -1,3 +1,7 @@
+If you don't have an eth0, run the following ...
+
+    sudo ip tuntap add dev eth0 mode tap
+
 Clone me, then (make sure ~/bin is in your path) ...
 ```
 curl -o ~/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/v1.3.4/bin/linux/amd64/kubectl
